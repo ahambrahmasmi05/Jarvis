@@ -2,15 +2,10 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musicLibrary
-import requests
-from openai import OpenAI
-from gtts import gTTS
-import pygame
-import os
+
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "d093053d72bc40248338159804e0e67d"
 
 
 def speak(text):
